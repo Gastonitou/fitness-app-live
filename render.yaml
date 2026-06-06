@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: fitness-app-live
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
